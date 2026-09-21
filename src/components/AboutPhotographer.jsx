@@ -27,7 +27,7 @@ export default function AboutPhotographer() {
               {/* Portrait image */}
               <div className="relative rounded-sm overflow-hidden border border-gold-400/40 shadow-2xl bg-charcoal-950">
                 <img
-                  src="/images/bioglam/photographer-nagaraj.jpg"
+                  src="/images/bioglam/photographer-nagaraj.png"
                   alt="Nagaraj — Lead Photographer at BioGlam Photography Bengaluru"
                   loading="lazy"
                   className="w-full h-auto object-cover"
