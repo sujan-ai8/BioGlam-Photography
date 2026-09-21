@@ -1,0 +1,5 @@
+# BioGlam Photography - Robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://bioglamphotography.com/sitemap.xml
