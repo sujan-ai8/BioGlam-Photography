@@ -85,12 +85,12 @@ export default function ContactSection() {
                     Instagram
                   </h3>
                   <a
-                    href="https://www.instagram.com/bioglam_official/"
+                    href="https://www.instagram.com/thehouseofweddings.in/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-base text-warm-white hover:text-pink-300 font-medium transition-colors flex items-center"
                   >
-                    <span>@bioglam_official</span>
+                    <span>@thehouseofweddings.in</span>
                     <ExternalLink className="w-3.5 h-3.5 ml-1.5 text-warm-muted" />
                   </a>
                   <p className="text-xs text-warm-muted mt-0.5">Daily reels, galleries & behind-the-scenes</p>
@@ -135,7 +135,7 @@ export default function ContactSection() {
               </a>
 
               <a
-                href="https://www.instagram.com/bioglam_official/"
+                href="https://www.instagram.com/thehouseofweddings.in/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-3 px-3 rounded-sm bg-charcoal-900 border border-pink-500/30 text-pink-300 hover:bg-pink-500/20 text-xs font-semibold uppercase tracking-wider text-center flex flex-col items-center justify-center gap-1 transition-all"

@@ -111,12 +111,12 @@ export default function Footer() {
             <div className="flex items-center space-x-3 text-xs text-warm-white/80">
               <InstagramIcon className="w-4 h-4 text-pink-400 flex-shrink-0" />
               <a
-                href="https://www.instagram.com/bioglam_official/"
+                href="https://www.instagram.com/thehouseofweddings.in/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-pink-300 transition-colors"
               >
-                @bioglam_official
+                @thehouseofweddings.in
               </a>
             </div>
 

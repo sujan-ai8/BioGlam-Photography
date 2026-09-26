@@ -8,42 +8,48 @@ export default function InstagramFeed() {
       image: '/images/bioglam/wedding-couple.png',
       likes: '342',
       comments: '28',
-      caption: 'When love speaks in silent glances. BioGlam Wedding Stories #BioGlamOfficial #BangaloreWeddings'
+      caption: 'Grace in every step, elegance in every moment, and a heart full of forever. 🤍✨ #BridalElegance #WeddingInspiration',
+      url: 'https://www.instagram.com/p/DanfOuKj7GF/?stkn=ZXE5M2d0Y2pnZnU3'
     },
     {
       id: 2,
       image: '/images/bioglam/maternity-arch.png',
       likes: '419',
       comments: '35',
-      caption: 'Celebrating the glow of new beginnings. #MaternityPhotographyBangalore #BioGlamMoments'
+      caption: 'Celebrating the glow of new beginnings. #MaternityPhotographyBangalore #BioGlamMoments',
+      url: 'https://www.instagram.com/thehouseofweddings.in/'
     },
     {
       id: 3,
       image: '/images/bioglam/wedding-ritual.jpg',
       likes: '584',
       comments: '46',
-      caption: 'Akshata showers and pure blessings. Sacred Bengaluru weddings with BioGlam.'
+      caption: 'Akshata showers and pure blessings. Sacred Bengaluru weddings with BioGlam.',
+      url: 'https://www.instagram.com/thehouseofweddings.in/'
     },
     {
       id: 4,
       image: '/images/bioglam/prewedding-couple.jpg',
       likes: '390',
       comments: '31',
-      caption: 'Sunset dreams at palace gardens. Pre-wedding sessions customized for you.'
+      caption: 'Sunset dreams at palace gardens. Pre-wedding sessions customized for you.',
+      url: 'https://www.instagram.com/thehouseofweddings.in/'
     },
     {
       id: 5,
       image: '/images/bioglam/bridal-portrait.jpg',
       likes: '512',
       comments: '42',
-      caption: 'Heritage elegance in every thread. The radiant South Indian bride.'
+      caption: 'Heritage elegance in every thread. The radiant South Indian bride.',
+      url: 'https://www.instagram.com/thehouseofweddings.in/'
     },
     {
       id: 6,
       image: '/images/bioglam/haldi-celebration.jpg',
       likes: '467',
       comments: '39',
-      caption: 'Laughter is best served with yellow marigolds & haldi! #FamilyRituals'
+      caption: 'Laughter is best served with yellow marigolds & haldi! #FamilyRituals',
+      url: 'https://www.instagram.com/thehouseofweddings.in/'
     }
   ];
 
@@ -60,7 +66,7 @@ export default function InstagramFeed() {
             </div>
             
             <h2 className="font-serif-luxury text-3xl sm:text-4xl text-warm-white">
-              @bioglam_official
+              @thehouseofweddings.in
             </h2>
             
             <p className="text-sm text-warm-muted font-light mt-1">
@@ -69,7 +75,7 @@ export default function InstagramFeed() {
           </div>
 
           <a
-            href="https://www.instagram.com/bioglam_official/"
+            href="https://www.instagram.com/thehouseofweddings.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2.5 px-6 py-3 rounded-sm bg-gradient-to-r from-pink-600/20 via-purple-600/20 to-gold-500/20 border border-pink-500/30 text-warm-white hover:border-gold-400 text-xs uppercase tracking-widest font-semibold transition-all group"
@@ -85,7 +91,7 @@ export default function InstagramFeed() {
           {instagramPosts.map((post) => (
             <a
               key={post.id}
-              href="https://www.instagram.com/bioglam_official/"
+              href={post.url || "https://www.instagram.com/thehouseofweddings.in/"}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative aspect-square rounded-sm overflow-hidden bg-charcoal-900 border border-white/5 hover:border-gold-500/40 transition-all"
